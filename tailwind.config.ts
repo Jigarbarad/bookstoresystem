@@ -57,6 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        bookstore: {
+          warm: "hsl(var(--bookstore-warm))",
+          cream: "hsl(var(--bookstore-cream))",
+          gold: "hsl(var(--bookstore-gold))",
+          leather: "hsl(var(--bookstore-leather))",
+        },
+      },
+      backgroundImage: {
+        'gradient-warm': 'var(--gradient-warm)',
+        'gradient-gold': 'var(--gradient-gold)',
+        'gradient-hero': 'var(--gradient-hero)',
+      },
+      boxShadow: {
+        'book': 'var(--shadow-book)',
+        'elevated': 'var(--shadow-elevated)',
       },
       borderRadius: {
         lg: "var(--radius)",
